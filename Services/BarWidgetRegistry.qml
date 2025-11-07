@@ -37,7 +37,7 @@ Singleton {
                            "Volume": volumeComponent,
                            "WiFi": wiFiComponent,
                            "WallpaperSelector": wallpaperSelectorComponent,
-                           "Workspace": workspaceComponent
+                           "Workspace": workspaceComponent,
                            "Hello": helloComponent
                          })
 
