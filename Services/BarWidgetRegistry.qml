@@ -38,6 +38,7 @@ Singleton {
                            "WiFi": wiFiComponent,
                            "WallpaperSelector": wallpaperSelectorComponent,
                            "Workspace": workspaceComponent
+                           "Hello": helloComponent
                          })
 
   property var widgetMetadata: ({
@@ -172,6 +173,10 @@ Singleton {
                                   "Volume": {
                                     "allowUserSettings": true,
                                     "displayMode": "onhover"
+                                  },
+                                  "Hello": {
+                                    "allowUserSettings": true,
+                                    "text": "Hello"
                                   }
                                 })
 
@@ -259,6 +264,9 @@ Singleton {
   }
   property Component taskbarGroupedComponent: Component {
     TaskbarGrouped {}
+  }
+  property Component helloComponent: Component {
+    Hello {}
   }
 
   function init() {
