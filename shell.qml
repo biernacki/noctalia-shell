@@ -9,6 +9,7 @@
 // Qt & Quickshell Core
 import QtQuick
 import Quickshell
+import QtQuick.VirtualKeyboard
 
 // Commons & Services
 import qs.Commons
