@@ -7,6 +7,7 @@
   qt6,
   quickshell,
   xkeyboard_config,
+  kdePackages,
   # runtime deps
   bash,
   bluez,
@@ -82,6 +83,7 @@ in
       quickshell
       xkeyboard_config
       qt6.qtbase
+      kdePackages.qtvirtualkeyboard
     ];
     propagatedBuildInputs = runtimeDeps;
 

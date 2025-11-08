@@ -47,6 +47,7 @@ in {
         TimeoutStopSec = 5;
         Environment = [
           "NOCTALIA_SETTINGS_FALLBACK=%h/.config/noctalia/gui-settings.json"
+          "QT_IM_MODULE=qtvirtualkeyboard"
         ];
       };
     };
